@@ -44,24 +44,27 @@ hr.light {
     border-color: #fff
 }
 a {
-    transition: all .35s;
-    color: #175bba
+	transition: all .35s;
+	color: #FFFFFF
 }
 a:focus,
 a:hover {
-    color: #0f2b9f
+	color: #005CFF;
+	font-size: 16px;
 }
 p {
-    font-size: 16px;
-    line-height: 1.5;
-    margin-bottom: 20px
+	font-size: 14px;
+	line-height: 1.5;
+	margin-bottom: 20px;
+	color: #FFFFFF;
 }
 .bg-primary {
     background-color: #175bba
 }
 .bg-dark {
-    background-color: #222;
-    color: #fff
+	background-color: #222;
+	color: #fff;
+	text-align: center;
 }
 .text-faded {
     color: rgba(255, 255, 255, .7)
@@ -218,7 +221,8 @@ header .header-content .header-content-inner p {
     }
 }
 .section-heading {
-    margin-top: 0
+	margin-top: 0;
+	text-align: center;
 }
 .service-box {
     max-width: 400px;
